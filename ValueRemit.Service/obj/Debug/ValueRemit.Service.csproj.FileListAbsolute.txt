@@ -1,0 +1,6 @@
+A:\Document\manu\Priyesh\BeepTool\ValueRemit\ValueRemit.Service\obj\Debug\ValueRemit.Service.csprojResolveAssemblyReference.cache
+A:\Document\manu\Priyesh\BeepTool\ValueRemit\ValueRemit.Service\bin\Debug\ValueRemit.Service.dll.config
+A:\Document\manu\Priyesh\BeepTool\ValueRemit\ValueRemit.Service\bin\Debug\ValueRemit.Service.dll
+A:\Document\manu\Priyesh\BeepTool\ValueRemit\ValueRemit.Service\bin\Debug\ValueRemit.Service.pdb
+A:\Document\manu\Priyesh\BeepTool\ValueRemit\ValueRemit.Service\obj\Debug\ValueRemit.Service.dll
+A:\Document\manu\Priyesh\BeepTool\ValueRemit\ValueRemit.Service\obj\Debug\ValueRemit.Service.pdb

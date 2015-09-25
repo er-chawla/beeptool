@@ -1,0 +1,4 @@
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Model\bin\Release\ValueRemit.Model.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Model\bin\Release\ValueRemit.Model.pdb
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Model\obj\Release\ValueRemit.Model.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Model\obj\Release\ValueRemit.Model.pdb

@@ -1,0 +1,7 @@
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Dal\bin\Debug\ValueRemit.Dal.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Dal\bin\Debug\MySql.Data.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Dal\bin\Debug\ValueRemit.Model.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Dal\bin\Debug\ValueRemit.Model.pdb
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Dal\obj\Debug\ValueRemit.Dal.csprojResolveAssemblyReference.cache
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Dal\obj\Debug\ValueRemit.Dal.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Dal\obj\Debug\ValueRemit.Dal.pdb

@@ -1,0 +1,139 @@
+﻿@model ValueRemit.Model.TransferBankModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0046)http://beeptool.pwtech.pw/transfer_money.html# -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="@Url.Content("/Content/css")" type="text/css" />
+    <link href="@Url.Content("/Content/css(1)")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/style.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/stylesheet.css")" rel="stylesheet" type="text/css" />
+    <title>BeepTool: the easiest way to buy airtime, make payments, send money and recieve money with your "ATM" card.</title>
+</head>
+<body style="background:none;">
+    <div id="wrapper">
+        <div class="header">
+            <div id="in_wrapper">
+           
+
+            </div><!--send_div-->
+        </div><!--in_wrapper-->
+    </div><!--header-->
+    <div class="welcome_titel"><strong>Send Small Amount of Money to any bank account in any of the country you want instantly!</strong> </div>
+    <div id="in_wrapper">
+
+        <div class="alert-success"><b>Note:</b> Ensure you have enough funds in your BeepTool Account to make this Money Transfer. <a href="./images/Transfer Money.html">Top Up BeepTool Account Now</a></div>
+        <div class="form_div">
+          
+                @Html.BeginForm()
+                {
+                <ul>
+                    <li>
+                        <label>Exchange Rate Now:</label>
+                        <span>$1 = N220.00</span>
+                    </li>
+                    <li>
+                        <label>BeepTool Account Balance</label>
+                        <span>$1.00 [NGN 220.00]</span>
+                    </li>
+                    <li>
+                        <label>Beneficiary Country*:</label>
+                        @Html.DropDownListFor(x=>x.CountryId,Model.Countries)
+                        @*<select>
+                            <option> Select Beneficiary Country</option>
+                            <option>Nigeria</option>
+                            <option>Other countries will be added  soon</option>
+                        </select>*@
+                    </li>
+
+                    <li>
+                        <label>Beneficiary bank *:</label>
+                        @Html.DropDownListFor(x => x.BankId, Model.Banks)
+                        @*<select>
+                            <option>Select the Beneficiary bank </option>
+                            <option>Access Bank Nigeria Plc</option>
+                            <option>ACCION Microfinance bank</option>
+                            <option>Aso Savings</option>
+                            <option>Diamond Bank Plc</option>
+                            <option>Ecobank Nigeria</option>
+                            <option>Ekondo MFB</option>
+                            <option>Enterprise Bank Plc</option>
+                            <option>Fidelity Bank Plc</option>
+                            <option>First Bank of Nigeria Plc</option>
+                            <option>First City Monument Bank<</option>
+                            <option>Guaranty Trust Bank Plc</option>
+                            <option>Heritage Bank</option>
+                            <option>Jaiz  Bank PLC</option>
+                            <option> Keystone Bank Ltd</option>
+                            <option>Skye Bank Plc</option>
+                            <option>Stanbic IBTC Plc</option>
+                            <option>Sterling Bank Plc</option>
+                            <option>Union&nbsp;Bank&nbsp;Nigeria&nbsp;Plc</option>
+                            <option>United Bank for Africa Plc</option>
+                            <option>Unity Bank Plc</option>
+                            <option>WEMA Bank Plc</option>
+                            <option>Zenith Bank International</option>
+                        </select>*@
+                    </li>
+                    <li><label>Beneficiary Bank Account Number*:</label><input type="text" name="lname"></li>
+                    <li>
+                        <label>Beneficiary  Name:</label>
+                        <span><b>John Enoh </b></span>
+                    </li>
+                    <li>
+                        <label>Beneficiary Bank Account Type *:</label>
+                        @Html.DropDownListFor(x => x.AccountTypeId, Model.AccountTypes,"Please Select Account Type")
+                        @*<select>
+                            <option>Select Beneficiary Account Type</option>
+                            <option>Current</option>
+                            <option>Savings</option>
+                            <option>Not Sure</option>
+                        </select>*@
+                    </li>
+                    <li><label>Transfer Amount *:</label><input type="text" name="lname"></li>
+                    <li>
+                        <label> Beneficiary Email:</label>
+                        <input type="text" name="lname">
+                    </li>
+                    <li>
+                        <label> Beneficiary Phone No:</label>
+                        <input type="text" name="lname">
+                    </li>
+                    <li>
+                        <label> Purpose of the transfer :</label>
+                        <input type="text" name="lname">
+                    </li>
+                    <li>
+                        <b>Note:</b> Convenience fees will be apply. Both Sender and receiver get SMS and email after the successful transaction
+                    </li>
+                    <li>
+                        <label>Convience fee *:</label>
+                        <input type="text" name="lname">
+
+                    </li>
+
+                    <div class="form_bt_div">
+                        <center><input type="submit" value="Transfer Now" class="proceed_bt"></center>
+                        <a href="http://beeptool.pwtech.pw/transfer_money.html#"><input type="button" value="Cancel" class="cancel_bt"></a>
+                    </div>
+                </ul>
+                }
+          
+        </div><!--form_div-->
+    </div><!--form_div-->
+    </div><!--money_all_div-->
+    </div><!--money_all_div-->
+
+
+    <div class="footer_bg">
+        Copyright ©2014-2015 BeepTool All Rights Reserved. BeepTool is a trademark of BeepTool Communications & Integrated Services Ltd
+    </div>
+
+    </div><!--wrapper-->
+
+</body>
+</html>

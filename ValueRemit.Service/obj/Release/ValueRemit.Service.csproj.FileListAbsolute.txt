@@ -1,0 +1,8 @@
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\bin\Release\ValueRemit.Service.dll.config
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\bin\Release\ValueRemit.Service.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\bin\Release\ValueRemit.Service.pdb
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\obj\Release\ValueRemit.Service.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\obj\Release\ValueRemit.Service.pdb
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\bin\Release\ValueRemit.Model.dll
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\bin\Release\ValueRemit.Model.pdb
+A:\Websites\Beeptool\valueRemit\BeepTool\BeepTool\ValueRemit\ValueRemit.Service\obj\Release\ValueRemit.Service.csprojResolveAssemblyReference.cache
